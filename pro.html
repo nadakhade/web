@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+  *{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+.nav1 {
+	
+	width: 100%;
+	height: 100vh;
+    position: fixed;
+    top: 0;
+}
+nav {
+	background:black;
+	opacity: .7;
+}
+nav:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+nav h2 {
+	color: #fff;
+	float: left;
+	padding: 15px;
+	margin-left: 150px;
+}
+.links {
+	margin-right: 150px;
+	float: right;
+}
+.links li {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+
+}
+.links li a{
+	display: inline-block;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+}
+.links li:hover{
+	background: #555;
+}
+.links li:hover .dropdown{
+	display: block;
+}
+.dropdown {
+	background: #111;
+	position: absolute;
+	display: none;
+	top: 57px;
+	left: 0px;
+	width: 150px;
+}
+.dropdown li{
+	border: 2px solid #222;
+	display: block;
+	color: #fff;
+}
+
+/********************************products**********************/
+    .main{
+
+margin-top: 10%;
+}
+.main h6{
+    font-size: 70px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.card{
+    width: 18%;
+    height: 5%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 10px; 
+    margin: 1% 3% 1% 3%;
+   
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+height: 250px;
+
+}
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+ margin-top: 40px;
+ margin-bottom: 10px;
+ background-color: orange;
+ border: 1px solid black;
+ border-radius: 5px;
+ padding:10px;
+ color: white;
+ font-weight: bold;
+}
+button:hover{
+ background-color: black;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+.footer{
+            background-color: #191f22;
+            color: #6a6e71;
+            padding: 1px 0;
+            text-align: center;
+            margin-top: 3%;
+        }
+        .footer ul{
+            list-style: none;
+            padding-left: 0;
+            margin: 20px 0 0;
+        }
+        .footer ul li{
+            display: inline;
+        }
+        .footer ul li img{
+            width: 24px;
+        }
+
+    </style>
+</head>
+<body>
+	<div class="nav1">
+		<nav>
+			<h2>STYLE</h2>
+			<ul class="links">
+				<li><a href="main.html">Home</a></li>
+				<li><a href="abo.html">About us</a></li>
+				<li><a href="pro.html">product</a>
+
+					<ul class="dropdown">
+						<li><a href="#tabel">tabels</a></li>
+						<li><a href="#chair">chairs</a></li>
+						<li><a href="#bed">beds</a></li>
+						<li><a href="#door">doors</a></li>
+						</li>
+				</ul>
+				<li><a href="cont.html" >contact us</a></li>
+        <li><a href="log.html" target="_blank">login</a></li>
+			
+		</nav>
+	</div>
+  <div class="main">
+<h6 id="tabel">Tabels</h6>
+    <!--cards -->
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="15.jpeg">
+   </div>
+   <div class="title">
+    <h1>
+   circle table</h1>
+   </div>
+   <div class="des">
+    <p>Price : 350$s</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="16.jpeg">
+   </div>
+   <div class="title">
+    <h1>
+   table</h1>
+   </div>
+   <div class="des">
+    <p>Price : 600$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+     <div class="image">
+        <img src="21.jpeg">
+     </div>
+     <div class="title">
+      <h1>
+     piano table</h1>
+     </div>
+     <div class="des">
+      <p>Price : 200$</p>
+     <button>BUY NOW...</button>
+     
+     </div>
+     </div>
+   <!--cards -->
+
+   <div class="card">
+   
+   <div class="image">
+      <img src="19.jpeg">
+   </div>
+   <div class="title">
+    <h1>
+   small table with two legs</h1>
+   </div>
+   <div class="des">
+    <p>Price : 750$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <h6 id="chair">chairs</h6>
+    <!--cards -->
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download5.jpg">
+   </div>
+   <div class="title">
+    <h1>
+   classic chair</h1>
+   </div>
+   <div class="des">
+    <p>Price : 350$s</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download6.jpg">
+   </div>
+   <div class="title">
+    <h1> modern chair</h1>
+  
+
+   </div>
+   <div class="des">
+    <p>Price : 600$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   <div class="card">
+   
+     <div class="image">
+        <img src="download7.jpg">
+     </div>
+     <div class="title">
+      <h1>orange chair with table</h1>
+     
+     </div>
+     <div class="des">
+      <p>Price : 200$</p>
+     <button>BUY NOW...</button>
+     
+     </div>
+     </div>
+   <!--cards -->
+
+   <div class="card">
+   
+   <div class="image">
+      <img src="download8.jpg">
+   </div>
+   <div class="title">
+    <h1>
+  gray chair with table</h1>
+   </div>
+   <div class="des">
+    <p>Price : 750$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <h6 id="bed">Beds</h6>
+    <!--cards -->
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download1.jpg">
+   </div>
+   <div class="title">
+    <h1>
+   clasic bed</h1>
+   </div>
+   <div class="des">
+    <p>Price : 350$s</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download2.jpg">
+   </div>
+   <div class="title">
+    <h1>
+   wood bed</h1>
+   </div>
+   <div class="des">
+    <p>Price : 600$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+     <div class="image">
+        <img src="download3.jpg">
+     </div>
+     <div class="title">
+      <h1>
+     modern bed</h1>
+     </div>
+     <div class="des">
+      <p>Price : 200$</p>
+     <button>BUY NOW...</button>
+     
+     </div>
+     </div>
+   <!--cards -->
+
+   <div class="card">
+   
+   <div class="image">
+      <img src="download4.jpg">
+   </div>
+   <div class="title">
+    <h1>
+   bed with box</h1>
+   </div>
+   <div class="des">
+    <p>Price : 750$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <h6 id="door">Door</h6>
+    <!--cards -->
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download9.jpg">
+   </div>
+   <div class="title">
+    <h1>
+   light brown door</h1>
+   </div>
+   <div class="des">
+    <p>Price : 350$s</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+   <div class="image">
+      <img src="download10.jpg" height="290">
+   </div>
+   <div class="title">
+    <h1>
+classic door</h1>
+   </div>
+   <div class="des">
+    <p>Price : 600$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+   <!--cards -->
+   
+   
+   <div class="card">
+   
+     <div class="image">
+        <img src="download11.jpg" height="290">
+     </div>
+     <div class="title">
+      <h1>
+     door with glassess</h1>
+     </div>
+     <div class="des">
+      <p>Price : 200$</p>
+     <button>BUY NOW...</button>
+     
+     </div>
+     </div>
+   <!--cards -->
+
+   <div class="card">
+   
+   <div class="image">
+      <img src="download12.jpg" height="">
+   </div>
+   <div class="title">
+    <h1>
+   modern door</h1>
+   </div>
+   <div class="des">
+    <p>Price : 750$</p>
+   <button>BUY NOW...</button>
+   </div>
+   </div>
+
+  <div class="footer">
+   
+     <div class="container">
+         <span>Copyright &copy; 2014 STYLE INC.</span>
+
+         <ul>
+             <li><img src="iconfinder_1_Facebook_colored_svg_copy_5296499.png"></li>
+             <li><img src="iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png"></li>
+             <li><img src="iconfinder_2018_social_media_popular_app_logo_linkedin_3225190.png"></li>
+             <li><img src="iconfinder_Google_Plus_570630.png"></li>
+         </ul>
+     </div>
+  
+ </div>   
+    </div>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  *{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+.nav1 {
+	
+	width: 100%;
+	height: 100vh;
+    
+}
+nav {
+	background:black;
+	opacity: .7;
+}
+nav:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+nav h2 {
+	color: #fff;
+	float: left;
+	padding: 15px;
+	margin-left: 150px;
+}
+.links {
+	margin-right: 150px;
+	float: right;
+}
+.links li {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+
+}
+.links li a{
+	display: inline-block;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+}
+.links li:hover{
+	background: #555;
+}
+.links li:hover .dropdown{
+	display: block;
+}
+.dropdown {
+	background: #111;
+	position: absolute;
+	display: none;
+	top: 57px;
+	left: 0px;
+	width: 150px;
+}
+.dropdown li{
+	border: 2px solid #222;
+	display: block;
+	color: #fff;
+}
+        .contact{
+        text-align: center;
+      
+       color: black;
+       top: 20px;
+        }
+        .contact h1{
+            margin-top: -600px;
+        }
+form{
+    float: right;
+    color: black;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 25px;
+background-color:lightgrey;
+width: 400px;
+height: 400px;
+padding: 70px 20px 10px 50px;
+box-shadow: black;
+
+}
+
+input{
+    height: 30px;
+    width: 300px;
+  background-color:white;
+ border-style: none;
+}
+input[type=submit]{
+    height: 50px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+}
+.img{
+margin-top:70px ;
+margin-left: 50px;
+}
+.img img{
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+}
+.location{
+    color: black;
+    margin-top: -5px;
+}
+.location h2{
+    margin-top: 7px;
+}
+.location h3{
+    margin-top: -1px;
+}
+.phone{
+    color: black;
+    margin-top: -5px;
+}
+.phone h2{
+    margin-top: 1px;
+}
+.phone h4{
+    margin-top: -1px;
+}
+.mail{
+    color: black;
+    margin-top: -5px;
+}
+.mail h2{
+    margin-top: 7px;
+}
+.mail h3{
+    margin-top: -1px;
+}
+.mail a{
+    color: black;
+}
+.footer{
+            background-color: #191f22;
+            color: #6a6e71;
+            padding: 1px 0;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .footer ul{
+            list-style: none;
+            padding-left: 0;
+            margin: 10px 0 0;
+        }
+        .footer ul li{
+            display: inline;
+        }
+        .footer ul li img{
+            width: 24px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav1">
+		<nav>
+			<h2>STYLE</h2>
+			<ul class="links">
+				<li><a href="main.html">Home</a></li>
+				<li><a href="abo.html">About us</a></li>
+				<li><a href="pro.html">product</a>
+
+					<ul class="dropdown">
+						<li><a href="">tabels</a></li>
+						<li><a href="">chairs</a></li>
+						<li><a href="">beds</a></li>
+						<li><a href="">doors</a></li>
+						</li>
+				</ul>
+				<li><a href="cont.html" >contact us</a></li>
+        <li><a href="log.html" target="_blank">login</a></li>
+			
+		</nav>
+	</div>
+    <div class="contact">
+  <h1>Contact Us</h1>  
+  <p>Welcom</p>
+</div>
+<form >
+    <label>User Name</label>
+    <br>
+    <input type="text" name="User name" placeholder="your name">
+    <br><br>
+    <label>Phone number</label>
+    <br>
+    <input type="number" name="Number" placeholder="your phone number">
+    <br><br>
+    <label>E-mail</label>
+    <br>
+    <input type="email" name="E-mail" placeholder="style@gmail.com">
+   <br><br>
+    <input type="submit" name="submit">
+</form>
+<div class="img">
+<div class="location">
+<img src="location.png" alt="">
+<h2>location</h2>
+<h3>shebin el-kom <br>menofia<br> Egypt</h3>
+
+</div>
+<div class="phone">
+<img src="phone.png" alt="">
+<h2>Phone</h2>
+<h4>01142591121 </h4>
+</div>
+<div class="mail">
+<img src="email.png" alt="">
+<h2>E-mail</h2>
+<h3><a href="#"> nadakhadr@gmail.com </a></h3>
+</div>
+<br>
+</div>
+<div class="footer">
+   
+    <div class="container">
+        <span>Copyright &copy; 2014 STYLE INC.</span>
+  
+        <ul>
+            <li><img src="iconfinder_1_Facebook_colored_svg_copy_5296499.png"></li>
+            <li><img src="iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png"></li>
+            <li><img src="iconfinder_2018_social_media_popular_app_logo_linkedin_3225190.png"></li>
+            <li><img src="iconfinder_Google_Plus_570630.png"></li>
+        </ul>
+    </div>
+  
+  </div> 
+</body>
+</html>
